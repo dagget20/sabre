@@ -10,8 +10,8 @@ class Sabre
 	def self.get_token
 
 
-		client_id = Base64.strict_encode64("V1:a06u5y6gtrmlus8f:DEVCENTER:EXT")
-		client_secret = Base64.strict_encode64('Ax3C1Wwr')
+		client_id = Base64.strict_encode64("client_id")
+		client_secret = Base64.strict_encode64('client_secret')
 		credentials = Base64.strict_encode64("#{client_id}:#{client_secret}")
 
 
